@@ -709,5 +709,16 @@ function showAlert(){
 	alert(success);
 }
 </script>
-	
+
+<script>
+	$(document).ready(function() {
+    $("input[name$='paymentMethod']").click(function() {
+        var test = $(this).val();
+
+        $("div.desc").hide();
+        $("#Pay" + test).show();
+    });
+});
+	</script>
+
 </html>
