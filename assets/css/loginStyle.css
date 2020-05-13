@@ -702,6 +702,7 @@ input.checkbox:checked:after {
 @media(max-width:384px) {
   .main-agileinfo {
     width: 88%;
+margin-bottom:60px;
   }
 
   .footer p {
