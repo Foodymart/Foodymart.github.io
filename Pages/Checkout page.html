@@ -14,13 +14,21 @@
 	<link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
     <!-- CSS Files -->
 	<link rel="stylesheet" href="../assets/css/productcss.css">
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="../assets/css/now-ui-dashboard.css?v=1.0.1" rel="stylesheet" />
+<!--    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />-->
+<!--    <link href="../assets/css/now-ui-dashboard.css?v=1.0.1" rel="stylesheet" />-->
 	<link rel="stylesheet" href="../assets/css/mycss.css">
-	<link rel="stylesheet" href="../assets/css/checkout.css">
+<!--	<link rel="stylesheet" href="../assets/css/checkout.css">-->
 	
     <!-- CSS Just for demo purpose, don't include it in your project -->
-<!--	<script src="../assets/js/jquery-3.4.1.js"></script>-->
+	<script src="../assets/js/jquery-3.4.1.js"></script>
+	
+	   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <!-- CSS Files -->
+  
+    <link href="../assets/css/now-ui-dashboard.css?v=1.0.1" rel="stylesheet" />
+  	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../assets/css/bootstrap.min (2).css">
+	 <link rel="stylesheet" href="../assets/css/checkout.css">
     
 </head>
 
@@ -105,6 +113,7 @@
 				
 				<nav class="nav1">
 						
+<!--
 						<form class="search1">
                             <div class="input-group no-border " >
                                 <input type="text" value="" class="form-control" style="width: 300px" placeholder="Search...">
@@ -113,12 +122,13 @@
                                 </span>
                             </div>
                         </form>
+-->
 			<ul class="navul">
 			
 				
 					
 				
-				<li class="navli"><a href="#pablo"> <i class="fas fa-home" style="margin-right: 5px"></i><span class="logintxt">Home</span></a></li>
+				<li class="navli"><a href="../index.html"> <i class="fas fa-home" style="margin-right: 5px"></i><span class="logintxt">Home</span></a></li>
 				
 				
 			<li class="dropdown navli">
@@ -390,7 +400,7 @@
 									<div class="row">
 										<div class="col-md-6 mb-3">
                                     
-                                    <label for="state">Professional Status *</label>
+                                    <label for="state" class="select1">Professional Status *</label>
                                     <select class="wide w-100" id="prof" style="border-radius: 5px; height: 40px">
 									<option data-display="Select">Choose...</option>
 									<option>Self-employed</option>
@@ -424,7 +434,7 @@
                                     
 									
 									
-                                    <label for="state">Bank *</label>
+                                    <label for="state" class="select1">Bank *</label>
                                     <select class="wide w-100" id="banks" style="border-radius: 5px; height: 40px">
 									<option data-display="Select">Choose...</option>
 									
@@ -490,7 +500,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-3 mb-3">
-                                    <label for="cc-expiration">Expiration *</label>
+                                    <label for="cc-expiration">Expiration*</label>
                                     <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
                                     <div class="invalid-feedback"> Expiration date required </div>
                                 </div>
