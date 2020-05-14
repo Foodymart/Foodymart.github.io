@@ -125,7 +125,7 @@ h2{
   padding:3px 5px;
   margin:5px 2px 5px 2px;
   background-color:#008753;
-
+  font-size: 8px;
   display:inline-block;
   color:#fff;
 	border: none;
@@ -542,6 +542,7 @@ header {display:block; font-size:1.2em;margin-bottom:100px;}
 }
 	.tab{
   padding:10px 20px;
+  font-size: 14px;
 }
 }
 @media screen and (max-width: 722px) {
