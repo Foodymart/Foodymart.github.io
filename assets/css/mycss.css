@@ -9,6 +9,63 @@ body{
   
 }
 
+.flex-icon {
+	margin-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+	padding-left: 20px;
+ margin-left: 5%;
+	margin-right: 5%;
+}
+
+.flex-icon > a {
+	
+  
+	color:white;
+  width: 60px;
+height: 60px;
+  margin: 20px;
+  text-align: center;
+/*  line-height: 75px;*/
+  
+	border-radius: 50%;
+	text-decoration: none;
+}
+.flex-icon i{
+	padding:25%;
+	font-size: 30px;
+}
+.but1{
+	background-color: #603C7D;
+}
+.but2{
+	background-color: #923A3B;
+}
+.but3{
+	background-color: #4CC041;
+}
+.but4{
+	background-color: #CCA121;
+}
+.but5{
+	background-color: rgba(205,197,51,1.00);
+}
+.but6{
+	background-color:deeppink;
+}
+.but7{
+	background-color:rgba(115,158,127,1.00)
+}
+
+.itxt{
+	color: black;
+	font-size: 10px;
+	position: absolute;
+	
+	margin-top: 8px;
+}
+
+
 
 .nav1 i{
 	font-size: 16px;
@@ -493,6 +550,25 @@ header {display:block; font-size:1.2em;margin-bottom:100px;}
 	padding: 6px 8px;
 	
 	font-size: 14px;
+}
+	.flex-icon{
+    margin-left: 2%;
+	margin-right: 2%;
+	}
+		.flex-icon > a {
+	
+  width: 40px;
+height: 40px;
+  margin: 18px 12px;
+ 
+
+  
+	
+}
+		
+.flex-icon i{
+	padding:15%;
+	font-size: 24px;
 }
 	
 	.dropdown-content{
