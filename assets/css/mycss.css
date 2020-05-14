@@ -547,14 +547,10 @@ header {display:block; font-size:1.2em;margin-bottom:100px;}
   font-size: 14px;
 }
 }
-@media screen and (max-width: 722px) {
-	.dropdown-content li a{
 
-	padding: 6px 8px;
-	
-	font-size: 14px;
-}
-/* 	.flex-icon{
+
+@media screen and (max-width: 550px) {
+.flex-icon{
     margin-left: 2%;
 	margin-right: 2%;
 	}
@@ -572,7 +568,16 @@ height: 40px;
 .flex-icon i{
 	padding:15%;
 	font-size: 24px;
-} */
+}
+}
+@media screen and (max-width: 722px) {
+	.dropdown-content li a{
+
+	padding: 6px 8px;
+	
+	font-size: 14px;
+}
+	
 	
 	.dropdown-content{
 /*margin-right: -30px;*/
