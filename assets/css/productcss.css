@@ -103,7 +103,7 @@ body {
   transition: var(--mainTransition);
   transform: translateX(101%);
   cursor: pointer;
-	font-size: 7px;
+	font-size: 8px;
 }
 .bag-btn:hover {
   color: var(--mainWhite);
