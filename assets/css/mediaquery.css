@@ -22,8 +22,8 @@
 
 	.navbar-brand{
 		position: relative;
-		top: 30px;
-		left: -8px;
+		top: 110px;
+		left: -15px;
 	}
 }
 
@@ -108,7 +108,7 @@
 @media screen and (max-width: 1299px) {
 .search1{
 		position: relative;
-		margin-top: 40px;
+		margin-top: 30px;
 		margin-left: auto;
 		margin-right: auto;
 		width: 80%;
