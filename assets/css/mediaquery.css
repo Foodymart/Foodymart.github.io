@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
-
+@media screen and (max-width: 320px){
+	.navbar-toggler{
+		display: none;
+	}
+}
 
 @media screen and (max-width: 420px){
 	.reco{
@@ -157,7 +161,7 @@
 		margin-left: -25px;
 	}
 	.nav1 i{
-	font-size: 14px;
+	font-size: 16px;
 }
 	
 	
