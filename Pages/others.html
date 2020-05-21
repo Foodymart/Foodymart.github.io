@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>FoodyMart</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS Files -->
+	<link rel="stylesheet" href="../assets/css/productcss.css">
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../assets/css/minified.css" rel="stylesheet" />
+	<link rel="stylesheet" href="../assets/css/mycss.css">
+	<link rel="stylesheet" href="../assets/css/mediaquery.css">
+   
+<style>
+	
+	::-webkit-input-placeholder {
+  
+  font-size: 13px;
+}
+::-moz-placeholder {
+  
+  font-size: 13px;
+}
+:-ms-input-placeholder {
+  
+  font-size: 13px;
+}
+::placeholder {
+  
+  font-size: 13px;
+}
+	</style>
+	
+</head>
+
+<body class="">
+    <div class="wrapper ">
+        <div class="sidebar" data-color="green">
+            <!--
+        Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"
+    -->
+            <div class="logo">
+<!--
+                <a href="#" class="simple-text logo-mini">
+                   FL
+                </a>
+-->
+                <a href="../pages/dashboard.html" class="simple-text logo-normal">
+                    <img src="../assets/img/newlogo.png" width="220px" height="60px" alt="">
+                </a>
+            </div>
+            <div class="sidebar-wrapper">
+              <ul class="nav">
+                    <li>
+                        <a href="../pages/dashboard.html">
+                            <i class="fas fa-home"></i>
+                            <p>Dashboard</p>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="../pages/Payment cards.html">
+                            <i class="fas fa-credit-card"></i>
+                            <p>Payment Cards</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../pages/Recommend.html">
+                            <i class="fas fa-users"></i>
+                            <p>Recommend a Friend</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../pages/user.html">
+                           <i class="far fa-user"></i>
+                            <p>User Profile</p>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="../pages/Help Center.html">
+                         <i class="far fa-question-circle"></i>
+                            <p>Help Center</p>
+                        </a>
+                    </li>
+                    <li class="active-pro">
+                        <a href="../pages/Privacy policy.html">
+                            <i class="fas fa-lock"></i>
+                            <p>Privacy Policy</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-panel">
+			
+			 <nav class="navbar   navbar-absolute  fixed-top"  >
+                <div class="container-fluid">
+                    <div class="navbar-wrapper" style="margin-top: 12px">
+                        <div class="navbar-toggle">
+                            <button type="button" class="navbar-toggler">
+                                <span class="navbar-toggler-bar bar1"></span>
+                                <span class="navbar-toggler-bar bar2"></span>
+                                <span class="navbar-toggler-bar bar3"></span>
+                            </button>
+                        </div>
+                         <a class="navbar-brand" href="#pablo">Others</a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"  aria-controls="navigation-index">
+
+                    </button>
+
+					
+					
+					
+					
+				
+					
+				
+					
+					
+                </div>
+				
+				<nav class="nav1">
+						
+						<form class="search1">
+                            <div class="input-group no-border " >
+                                <input type="text" value="" class="form-control" style="width: 300px" placeholder="Search...">
+                                <span class="input-group-addon">
+                                    <i class="fas fa-search"></i>
+                                </span>
+                            </div>
+                        </form>
+			<ul class="navul">
+			
+				
+					
+				
+				<li class="navli"><a href="../index.html"> <i class="fas fa-home" style="margin-right: 5px"></i><span class="logintxt">Home</span></a></li>
+				
+				
+			<li class="dropdown navli">
+				<a href="#pablo"> <i class="far fa-user" style="margin-right: 5px"></i><span class="logintxt">Account</span></a>	
+				
+
+				 <ul id="myDropdown" class="dropdown-content">
+					<li class="drop"><a href="../login.html">Login</a></li>
+					<li class="drop"><a href="../signup.html" >Signup</a></li>
+					<li class="drop"><a href="dashboard.html">Orders</a></li>
+					<li class="drop"><a href="../login.html">Logout</a></li>
+					
+				  </ul>
+
+				</li>
+				
+				<li class="dropdown navli">
+				<a href="#pablo"><span class="logintxt" style="margin-right: 5px">Balance</span>  <i class="fas fa-coins"></i></a>	
+				
+
+				 <ul class="dropdown-content">
+					<li class="drop"><a href="#"><p style="font-size: 12px; color: yellow">&#8358;0.00</p></a></li>
+					<li class="drop"><a href="Payment cards.html">Deposit</a></li>
+					
+					
+				  </ul>
+
+				</li>	
+				
+				<li class="nav-item navli"><a class="nav-link cart-btn" href="#pablo" style="position: relative"><span class="logintxt">Cart</span>
+          <span><i class="fa fa-opencart" aria-hidden="true"></i> <div class="cart-items">0</div></span>
+             </a></li>	
+				 
+			</ul>
+			</nav>
+				
+            </nav>
+			
+			
+            
+            <div class="panel-header panel-header-sm" style="height:200px">
+            </div>
+         
+				
+				
+				
+				
+				
+				  <div class="content">
+                
+                    <div class="col-md-12 ml-auto mr-auto">
+
+  <div id="tabs" class="tabs whitecont sticky-top">
+  
+  <a href="foodstuffs.html"><button class="tab">Raw Food</button></a>
+  <a href="" ><button class="tab">Fast Food</button></a>
+  <a href=""><button class="tab">Bevearages</button></a>
+  <a href=""><button class="tab">Toiletries</button></a>
+  <a href=""><button class="tab">Fresh food</button></a>
+  <a href=""><button class="tab">Dried food</button></a>
+  <a href=""><button class="tab active1">Others</button></a>
+  
+    </div>
+	
+  <div class="card-header text-center" style="background-color: white" >
+    
+
+	  
+	  <div id="myDIV" class="header">
+  <p class="htxt">Couldn't find the items you need on our product list?</p><br> <br>
+		  
+		  <p>Create your own list below</p>
+  <input type="text" id="myInput" placeholder="Eg. 3 crates of Eggs">
+  
+  <span onclick="newElement()" class="addBtn">Add</span>
+ 
+</div>
+
+<ol class="mylist" id="myUL" >
+
+</ol> <br>
+	 <button onClick="showAlert()" class="checkout banner-btn submit">Submit</button>
+	  
+	  
+  </div>
+  
+  </div>
+
+                    </div>
+               
+				
+				
+				    <div class="cart-overlay" style="z-index: 3000">
+      <div class="cart">
+        <span class="close-cart"><i class="far fa-window-close"></i></span>
+        <h2>your cart</h2>
+        <div class="cart-content">
+     
+        </div>
+        <div class="cart-footer">
+          <h3>your total : &#8358;<span class="cart-total">0</span></h3>
+			<div class="clearcheck">
+          <button class="clear-cart banner-btn ">clear cart</button>
+          <a href="Checkout page.html"><button class="checkout banner-btn" style="padding: 10px;">Checkout</button></a>
+				</div>
+        </div>
+		  
+      </div>
+						
+    </div>
+                <section class="products">
+      <div class="products-center" style="display: none"> </div>
+    </section>	
+			
+			<div id="toTop"><i class="fas fa-chevron-up fa-2x" style="color: #fff"></i></div>
+			
+           
+                    <footer class="footer">
+                <div class="container-fluid">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Contact Us
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Terms & Conditions
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                  Become a Seller
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="copyright">
+                        &copy;
+                        <script>
+                            document.write(new Date().getFullYear())
+                        </script>, Designed by
+                        <a href="https://www.facebook.com/obot.akpan" target="_blank">Obot Akpan</a>.
+                      
+						
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+<!--   Core JS Files   -->
+	
+	 <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <!--  javascript -->
+    <script src="../assets/js/app.js"></script>
+	
+	
+<script src="../assets/js/core/jquery.min.js"></script>
+<script src="../assets/js/core/popper.min.js"></script>
+<script src="../assets/js/core/bootstrap.min.js"></script>
+<script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+
+<!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
+<script src="../assets/js/main1.js"></script>
+
+<script>
+// Create a "close" button and append it to each list item
+var myNodelist = document.getElementsByClassName("lst");
+var i;
+for (i = 0; i < myNodelist.length; i++) {
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.appendChild(txt);
+  myNodelist[i].appendChild(span);
+}
+
+// Click on a close button to hide the current list item
+var close = document.getElementsByClassName("close");
+var i;
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function() {
+    var div = this.parentElement;
+    div.style.display = "none";
+  }
+}
+
+// Add a "checked" symbol when clicking on a list item
+var list = document.querySelector('ol');
+list.addEventListener('click', function(ev) {
+  if (ev.target.tagName === 'LI') {
+    ev.target.classList.toggle('checked');
+  }
+}, false);
+
+// Create a new list item when clicking on the "Add" button
+function newElement() {
+  var li = document.createElement("li");
+  var inputValue = document.getElementById("myInput").value;
+  var t = document.createTextNode(inputValue);
+  li.appendChild(t);
+  if (inputValue === '') {
+    alert("You must write something!");
+  } else {
+    document.getElementById("myUL").appendChild(li);
+  }
+  document.getElementById("myInput").value = "";
+
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.appendChild(txt);
+  li.appendChild(span);
+
+  for (i = 0; i < close.length; i++) {
+    close[i].onclick = function() {
+      var div = this.parentElement;
+      div.style.display = "none";
+    }
+  }
+}	
+</script>
+	
+	<script>
+function showAlert(){
+	var success="List Submitted. You will be Contacted soon by our team.";
+	alert(success);
+}
+</script>
+	
+		
+	
+</html>
