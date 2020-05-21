@@ -117,3 +117,48 @@ nav.navbar.navbar-inverse ul.cart-list > li.total > .btn{
 .btn1{
     background-color: #d33b33;
 }
+
+
+
+
+.nav1 i{
+	font-size: 16px;
+}
+.navul span{
+	font-size: 16px;
+}
+
+.navul {
+  list-style-type: none;
+  position: relative;
+ top: 0px;
+	right: 0px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.navli {
+ float: left;
+ width: 100px;
+/*	padding: 8px 0px;*/
+
+}
+
+.navli a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 4px;
+  text-decoration: none;
+}
+
+.navli a:hover {
+background-color: rgba(255, 255, 255, 0.2);
+}
+.fa-search{
+	margin-left: 10px;
+}
+
+
